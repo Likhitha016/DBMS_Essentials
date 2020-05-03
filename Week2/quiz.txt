@@ -1,0 +1,66 @@
+
+
+1:Which column is the most appropriate to be a primary key in Customer table:
+	CustNo
+
+2: How many columns are in the Customer table:
+	9
+3: How many constraint types are in the problem 1 statement:
+	2
+
+4: Which constraints are required in problem 1 statement
+	Primary key and NOT NULL constraints
+
+5: Which of the followings is the most appropriate data type for address column:
+	VARCHAR2
+
+6: Which column is the most appropriate to be a primary key in Facility table:
+	FacNo
+
+7: How many columns are in the Facility table:
+	2
+
+8: How many constraint types are in the problem 2 statement:
+	2
+
+9: Which constraints are required in problem 2 statement
+	Primary key and NOT NULL constraints
+
+10: Which of the followings is the most appropriate data type for FacName column:
+	VARCHAR2
+
+11: Which column is the most appropriate to be a primary key in Location table:
+	LocNo
+
+12: How many columns are in the Location table:
+	3
+
+13: How many constraint types are in the problem 3 statement:
+	2
+
+14: Which constraints are required in problem 3 statement
+	Primary key and NOT NULL constraints
+
+15: Which of the followings is the most appropriate data type for LocNAme column:
+	VARCHAR2
+
+16: How many 1-M relationships are there among the Customer, Facility and Location tables:
+	1
+
+17: Which of the following tables have 1-M relationship:
+	Facility and Location
+18: Which of the followings is the appropriate referential integrity constraint for problem 5:
+	CONSTRAINT FK_FACNO FOREIGN KEY (FacNo) REFERENCES FACILITY (FacNo)
+
+19: Which of the following statements is TRUE about problem 6:
+	Null values are not allowed in the foreign key column in Location table
+
+20: Which of the following constraints is the most appropriate addition in problem 6:
+	NOT NULL constraint for FacNo column
+
+21: Which of the following constraints is the most appropriate addition in problem 7:
+	Unique constraint
+
+22: Which of the followings is the appropriate constraint syntax for problem 7:
+	CONSTRAINT UniqueFacName UNIQUE (FacName)
+

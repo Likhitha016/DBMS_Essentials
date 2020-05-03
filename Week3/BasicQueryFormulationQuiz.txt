@@ -1,0 +1,32 @@
+1: Which statement(s) is/are required in the syntax of problem 1:
+	SELECT….FROM
+
+2: Which statement(s) is/are required in the syntax of problem 2:
+	SELECT…FROM….WHERE
+
+3: Which of the followings is the appropriate condition part for problem 2:
+	State = ‘CO’
+
+4: Which statement(s) is/are required in the syntax of problem 3:
+	SELECT….FROM….WHERE….ORDER BY
+
+5: Which of the followings is the appropriate condition part for problem 3:
+	EstCost > 4000
+
+6: Which statement(s) is/are required in the syntax of problem 4:
+	SELECT….FROM….WHERE….AND….OR
+
+7: Which of the followings is an appropriate condition part for problem 4
+	(Status = ‘Approved’ AND EstAudience > 9000)
+
+8: Which of the following key words could be used in the syntax of problem 5:
+	INNER JOIN
+
+9: Which statement(s) is/are required in the syntax of problem 6:
+	SELECT….AS….FROM….WHERE….GROUP BY
+
+10: Which of the following options is the appropriate syntax to average number of number of resources used column in problem 6:
+	SELECT AVG(NumberFld) AS NewColumnName
+
+11: Which statement(s) is/are required in the syntax of problem 7:
+	SELECT….AS….FROM….WHERE….GROUP BY….HAVING
